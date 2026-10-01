@@ -1,0 +1,19 @@
+{
+  "name": "namaste-mobile-crm",
+  "version": "1.0.0",
+  "description": "Namaste Mobile enquiry CRM with WhatsApp automation",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.2.1",
+    "node-cron": "^4.6.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "private": true
+}
